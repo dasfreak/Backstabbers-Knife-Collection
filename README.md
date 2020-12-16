@@ -18,6 +18,19 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 }
 ```
 
+## WHO IS TALKING ABOUT US?
+- https://reproducible-builds.org/docs/publications/
+- https://twitter.com/sparta_eu/status/1314219751070146568
+- https://blogs.sap.com/2020/06/26/attacks-on-open-source-supply-chains-how-hackers-poison-the-well/
+- https://news.ycombinator.com/item?id=23244778
+- https://www.sonatype.com/2020ssc
+- https://blog.phylum.io/malicious-packages-typosquatting-and-other-attacks-against-open-source-dependencies/
+- https://blog.phylum.io/malicious-javascript-code-in-npm-malware/
+- https://blog.phylum.io/what-is-the-state-of-npm/
+- https://pypi-scan.readthedocs.io/en/latest/
+- https://xebia.com/blog/open-source-supply-chain-attacks/
+- You?
+
 ## PACKAGE INDEX
 ### npm
 - 1337qq-js
