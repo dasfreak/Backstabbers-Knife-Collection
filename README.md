@@ -32,6 +32,11 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - You?
 
 ## PACKAGE INDEX
+### mavencentral
+- com.github.codingandcoding:mail-watcher-plugin
+- com.github.codingandcoding:maven-compiler-plugin
+- com.github.codingandcoding:servlet-api
+
 ### npm
 - 1337qq-js
 - 4equest
@@ -1023,3 +1028,4 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - vagrant_hvinfo
 - wordify-stuckiest
 - workarea-gift-cards
+
