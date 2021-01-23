@@ -114,6 +114,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - node-fabric
 - node-opencv
 - node-opensl
+- node-openssl
 - node-sqlite
 - node-tkinter
 - nodecaffe
