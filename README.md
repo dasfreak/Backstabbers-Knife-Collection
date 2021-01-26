@@ -40,6 +40,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 ### npm
 - 1337qq-js
 - 4equest
+- an0n-chat-lib
 - anarchy
 - angluar-cli
 - angular-location-update
@@ -59,6 +60,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - d3.js
 - deasyncp
 - device-mqtt
+- discord-fix
 - discordi.js
 - electorn
 - ember-power-timepicker
