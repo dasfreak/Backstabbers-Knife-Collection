@@ -83,12 +83,14 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - grunt-radic
 - grunt-radical
 - gruntcli
+- gsap-tween
 - http-fetch-cookies
 - http-proxy.js
 - hulp
 - ikst
 - jekyll-for-github-projects
 - jqeury
+- jquerry
 - jquery-airload
 - jquery.js
 - jquerz
