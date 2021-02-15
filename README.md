@@ -29,6 +29,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - https://blog.phylum.io/what-is-the-state-of-npm/
 - https://pypi-scan.readthedocs.io/en/latest/
 - https://xebia.com/blog/open-source-supply-chain-attacks/
+- https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610
 - You?
 
 ## PACKAGE INDEX
@@ -41,6 +42,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - 1337qq-js
 - 1ru-cache
 - 4equest
+- alicon
 - an0n-chat-lib
 - anarchy
 - angluar-cli
@@ -52,9 +54,12 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - boogeyman
 - botbait
 - browserift
+- chalc
 - colour-string
 - colro-name
 - commander-js
+- commender
+- component-emiter
 - conventional-changelog
 - cross-env.js
 - crossenv
@@ -68,6 +73,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - eslint-config-airbnb-standard
 - eslint-config-eslint
 - eslint-scope
+- esprime
 - event-stream
 - express-cookies
 - fabric-js
@@ -84,7 +90,9 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - grunt-radical
 - gruntcli
 - gsap-tween
+- headcache
 - http-fetch-cookies
+- http-proxy-middelware
 - http-proxy.js
 - hulp
 - ikst
@@ -107,6 +115,8 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - m-backdoor
 - mariadb
 - maybemaliciouspackage
+- mendiff
+- monent
 - mongose
 - motiv.scss
 - mssql-node
@@ -162,6 +172,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - scroool
 - sdfjghlkfjdshlkjdhsfg
 - secure_identity_login_module
+- seemver
 - shadowsock
 - shrugging-logging
 - slush-fullstack-framework
@@ -171,6 +182,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - sqlite.js
 - sqliter
 - sqlserver
+- stautses
 - stream-combine
 - tensorplow
 - test-module-a
