@@ -30,6 +30,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - https://pypi-scan.readthedocs.io/en/latest/
 - https://xebia.com/blog/open-source-supply-chain-attacks/
 - https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610
+- https://lwn.net/Articles/834078/
 - You?
 
 ## PACKAGE INDEX
