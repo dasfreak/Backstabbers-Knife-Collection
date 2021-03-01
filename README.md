@@ -198,6 +198,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 ### pypi
 - acqusition
 - apidev-coop
+- bzip
 - colourama
 - dajngo
 - dark-magic
@@ -205,6 +206,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - distrib
 - djago
 - djanga
+- django-server
 - easyinstall
 - fakessh
 - jeilyfish
@@ -221,6 +223,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - pandar
 - pip_security
 - pkgutil
+- pwd
 - pwniepip
 - pyconau-funtimes
 - pyscrapy
@@ -242,6 +245,8 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - trustpiphuh
 - trustpiphuh1
 - trustypip
+- urlib3
+- urllib
 - virtualnv
 
 ### rubygems
