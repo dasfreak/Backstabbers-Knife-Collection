@@ -235,6 +235,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - pyymal
 - reols
 - req-tools
+- request
 - smb
 - smplejson
 - timeit
@@ -1047,3 +1048,4 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - vagrant_hvinfo
 - wordify-stuckiest
 - workarea-gift-cards
+
