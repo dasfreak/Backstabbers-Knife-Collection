@@ -43,6 +43,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - 1337qq-js
 - 1ru-cache
 - 4equest
+- @bootsantos_bootsantos
 - alicon
 - an0n-chat-lib
 - anarchy
@@ -97,6 +98,8 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - http-proxy.js
 - hulp
 - ikst
+- internal_pkg_for_dc
+- internal_pkg_for_dc_new
 - jekyll-for-github-projects
 - jqeury
 - jquerry
@@ -146,6 +149,11 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - nothing-js
 - npm-script-demo
 - npmpubman
+- npxnpx
+- ofjaaah
+- ofjaaahteste
+- ofjaaahteste2
+- ofjaaahtwitch
 - only-test-not-install
 - opencv.js
 - openssl.js
