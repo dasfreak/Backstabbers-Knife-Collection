@@ -44,6 +44,9 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - 1ru-cache
 - 4equest
 - @bootsantos_bootsantos
+- @olxbr_gitlab-node-sdk
+- actions-toolbox
+- agent-assignment
 - alicon
 - an0n-chat-lib
 - anarchy
@@ -59,10 +62,14 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - chalc
 - colour-string
 - colro-name
+- com.google
+- com.google.play
+- com.google.play.comon
 - commander-js
 - commender
 - component-emiter
 - conventional-changelog
+- createtile
 - cross-env.js
 - crossenv
 - d3.js
@@ -71,6 +78,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - discord-fix
 - discordi.js
 - electorn
+- elm-combine
 - ember-power-timepicker
 - eslint-config-airbnb-standard
 - eslint-config-eslint
@@ -93,6 +101,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - gruntcli
 - gsap-tween
 - headcache
+- hl7.fhir
 - http-fetch-cookies
 - http-proxy-middelware
 - http-proxy.js
@@ -117,9 +126,11 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - lodashs
 - logsymbles
 - m-backdoor
+- mapbox-gl-shaders
 - mariadb
 - maybemaliciouspackage
 - mendiff
+- meupkgdeteste
 - monent
 - mongose
 - motiv.scss
@@ -150,6 +161,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - npm-script-demo
 - npmpubman
 - npxnpx
+- nubank-core
 - ofjaaah
 - ofjaaahteste
 - ofjaaahteste2
@@ -171,13 +183,17 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - rate-map
 - rc-calendar-jhorst
 - react-datepicker-plus
+- realm-postgres-adapters
+- reflect_decorators
 - regenraotr
 - regenrator
 - require-ports
+- restaurant-approval
 - rimrafall
 - rpc-websocket
 - rrgod
 - sailclothjs
+- samples-bootstrap-theme
 - scroool
 - sdfjghlkfjdshlkjdhsfg
 - secure_identity_login_module
@@ -199,6 +215,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - twilio-npm
 - uglyfi-js
 - uploader-plugin
+- validate-order
 - vue-backbone
 - yeoman-genrator
 - zemen
@@ -1061,4 +1078,3 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - vagrant_hvinfo
 - wordify-stuckiest
 - workarea-gift-cards
-
