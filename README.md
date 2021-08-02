@@ -217,6 +217,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - uploader-plugin
 - validate-order
 - vue-backbone
+- wp-calypso
 - yeoman-genrator
 - zemen
 
@@ -1093,3 +1094,4 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - vagrant_hvinfo
 - wordify-stuckiest
 - workarea-gift-cards
+
