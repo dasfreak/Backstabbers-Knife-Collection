@@ -31,6 +31,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - https://xebia.com/blog/open-source-supply-chain-attacks/
 - https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610
 - https://lwn.net/Articles/834078/
+- https://about.gitlab.com/blog/2021/07/23/announcing-package-hunter/
 - You?
 
 ## PACKAGE INDEX
@@ -45,6 +46,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - 4equest
 - @bootsantos_bootsantos
 - @olxbr_gitlab-node-sdk
+- acookie
 - actions-toolbox
 - agent-assignment
 - alicon
@@ -60,6 +62,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - botbait
 - browserift
 - chalc
+- code-oss-dev
 - colour-string
 - colro-name
 - com.google
@@ -73,6 +76,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - cross-env.js
 - crossenv
 - d3.js
+- dailymotion-sdk-js
 - deasyncp
 - device-mqtt
 - discord-fix
@@ -89,6 +93,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - fabric-js
 - fast-requests
 - ffmepg
+- firebase-extensions
 - flatmap-stream
 - foever
 - font-scrubber
@@ -106,6 +111,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - http-proxy-middelware
 - http-proxy.js
 - hulp
+- id-docs.telenordigital.com
 - ikst
 - internal_pkg_for_dc
 - internal_pkg_for_dc_new
@@ -162,6 +168,8 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - npmpubman
 - npxnpx
 - nubank-core
+- oauth_tutorial
+- octoprint-slackbot
 - ofjaaah
 - ofjaaahteste
 - ofjaaahteste2
@@ -200,6 +208,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - seemver
 - shadowsock
 - shrugging-logging
+- slack-reacjilator
 - slush-fullstack-framework
 - smb
 - soket.io
@@ -213,9 +222,11 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - test-module-a
 - tkinter
 - twilio-npm
+- typescript-dom-lib-generator
 - uglyfi-js
 - uploader-plugin
 - validate-order
+- vscode-npm-script
 - vue-backbone
 - wp-calypso
 - yeoman-genrator
