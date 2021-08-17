@@ -213,6 +213,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - smb
 - soket.io
 - soket.js
+- sonatype
 - sqlite.js
 - sqliter
 - sqlserver
