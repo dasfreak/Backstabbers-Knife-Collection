@@ -84,15 +84,20 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - electorn
 - elm-combine
 - ember-power-timepicker
+- ember-views
+- ent-screenshare
 - eslint-config-airbnb-standard
 - eslint-config-eslint
+- eslint-plugin-js
 - eslint-scope
 - esprime
 - event-stream
 - express-cookies
 - fabric-js
 - fast-requests
+- fds-test
 - ffmepg
+- finastra
 - firebase-extensions
 - flatmap-stream
 - foever
@@ -116,11 +121,13 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - internal_pkg_for_dc
 - internal_pkg_for_dc_new
 - jekyll-for-github-projects
+- jpfdevs
 - jqeury
 - jquerry
 - jquery-airload
 - jquery.js
 - jquerz
+- kiku-web
 - kraken-api
 - ladder-text-js
 - leaflet-gpx
@@ -142,6 +149,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - motiv.scss
 - mssql-node
 - mssql.js
+- muzli-extension
 - mx-nested-menu
 - mysqljs
 - ng-ui-library
@@ -206,6 +214,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - sdfjghlkfjdshlkjdhsfg
 - secure_identity_login_module
 - seemver
+- serverbeat
 - shadowsock
 - shrugging-logging
 - slack-reacjilator
@@ -222,6 +231,8 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - tensorplow
 - test-module-a
 - tkinter
+- tslint-shared
+- turing-ui
 - twilio-npm
 - typescript-dom-lib-generator
 - uglyfi-js
@@ -229,6 +240,9 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - validate-order
 - vscode-npm-script
 - vue-backbone
+- wm-babel-runtime
+- wm-jquery
+- wm-xpath-utils
 - wp-calypso
 - yeoman-genrator
 - zemen
@@ -1106,4 +1120,3 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - vagrant_hvinfo
 - wordify-stuckiest
 - workarea-gift-cards
-
