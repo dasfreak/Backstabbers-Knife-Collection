@@ -128,6 +128,8 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - jquery.js
 - jquerz
 - kiku-web
+- klow
+- klown
 - kraken-api
 - ladder-text-js
 - leaflet-gpx
@@ -1120,3 +1122,4 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - vagrant_hvinfo
 - wordify-stuckiest
 - workarea-gift-cards
+
