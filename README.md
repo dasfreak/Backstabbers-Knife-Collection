@@ -157,6 +157,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - ng-ui-library
 - nginxbeautifier
 - ngx-pica
+- noblox.js-proxy
 - node-fabric
 - node-opencv
 - node-opensl
