@@ -32,6 +32,17 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610
 - https://lwn.net/Articles/834078/
 - https://about.gitlab.com/blog/2021/07/23/announcing-package-hunter/
+- https://www.scythe.io/library/malware-risks-in-open-source-code
+- https://events.eclipse.org/2020/sam-iot/presentations/K1-Presentation.pdf
+- https://giters.com/tpike3/software-supply-chain-compromises
+- https://csec.it/events/workshop-ecosystem/slides/Plate.pdf
+- https://www.cybersecuritydive.com/news/open-source-software-security-rsa-supply-chain/600710/
+- https://www.etsmtl.ca/recherche/etudes-superieures-et-recherche/projets-de-recherche-pour-etudiants/mining-software-updates-to-prevent-supply-chain-at/
+- https://talkpython.fm/episodes/show/319/typosquatting-and-supply-chains-vulnerabilities
+- https://zh.wikipedia.org/wiki/%E4%BE%9B%E5%BA%94%E9%93%BE%E6%94%BB%E5%87%BB
+- https://nationalinterest.org/blog/skeptics/supply-chain-intelligence-dangerous-new-world-174458
+- https://www.iqt.org/can-open-source-code-steal-your-genome/
+- https://i.blackhat.com/USA21/Wednesday-Handouts/us-21-Securing-Open-Source-Software-End-To-End-At-Massive-Scale-Together.pdf
 - You?
 
 ## PACKAGE INDEX
