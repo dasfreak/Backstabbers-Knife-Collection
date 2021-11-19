@@ -251,6 +251,8 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - zemen
 
 ### pypi
+- 10cent10
+- 10cent11
 - acqusition
 - apidev-coop
 - are
@@ -260,6 +262,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - dajngo
 - dark-magic
 - diango
+- discordsafety
 - distrib
 - djago
 - djanga
@@ -267,6 +270,9 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - easyinstall
 - fakessh
 - genesisbot
+- important-package
+- importantpackage
+- ipboards
 - jeilyfish
 - junkeldat
 - learninglib
@@ -287,9 +293,11 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - noblesse2
 - noblessev2
 - openvc
+- owlmoon
 - pandar
 - pip_security
 - pkgutil
+- pptest
 - pwd
 - pwniepip
 - pyconau-funtimes
@@ -312,12 +320,15 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - smplejson
 - suffer
 - timeit
+- trrfab
 - trustpiphuh
 - trustpiphuh1
 - trustypip
 - urlib3
 - urllib
 - virtualnv
+- yandex-yt
+- yiffparty
 
 ### rubygems
 - 1-as-identity_function
