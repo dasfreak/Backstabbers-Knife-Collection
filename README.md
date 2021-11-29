@@ -268,6 +268,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - apidev-coop
 - are
 - aryi
+- botaa3
 - bzip
 - colourama
 - dajngo
