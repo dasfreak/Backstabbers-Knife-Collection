@@ -57,6 +57,8 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - 4equest
 - @bootsantos_bootsantos
 - @olxbr_gitlab-node-sdk
+- @pornhub_alerts
+- @xvideos_alerts
 - acookie
 - actions-toolbox
 - agent-assignment
