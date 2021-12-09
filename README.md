@@ -93,7 +93,11 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - deasyncp
 - device-mqtt
 - discord-fix
+- discord-lofy
+- discord-selfbot-v14
+- discord-vilao
 - discordi.js
+- discordsystem
 - electorn
 - elm-combine
 - ember-power-timepicker
@@ -162,6 +166,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - monent
 - mongose
 - motiv.scss
+- mrg-message-broker
 - mssql-node
 - mssql.js
 - muzli-extension
@@ -193,6 +198,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - npxnpx
 - nubank-core
 - oauth_tutorial
+- octavius-public
 - octoprint-slackbot
 - ofjaaah
 - ofjaaahteste
@@ -208,6 +214,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - pm-controls
 - portionfatty12
 - precode.js
+- prerequests-xcode
 - proxy.js
 - pyramid-proportion
 - radic-util
@@ -256,6 +263,14 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - validate-order
 - vscode-npm-script
 - vue-backbone
+- wafer-beacon
+- wafer-bind
+- wafer-caas
+- wafer-form
+- wafer-geolocation
+- wafer-image
+- wafer-lightbox
+- wafer-toggle
 - wm-babel-runtime
 - wm-jquery
 - wm-xpath-utils
