@@ -228,6 +228,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - regenrator
 - require-ports
 - restaurant-approval
+- richdocuments
 - rimrafall
 - rpc-websocket
 - rrgod
