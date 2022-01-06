@@ -286,6 +286,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - apidev-coop
 - are
 - aryi
+- aws-login0tool
 - botaa3
 - bzip
 - colourama
@@ -297,6 +298,8 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - djago
 - djanga
 - django-server
+- dpp_client
+- dpp_client1234
 - easyinstall
 - fakessh
 - genesisbot
