@@ -97,6 +97,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - discord-selfbot-v14
 - discord-vilao
 - discordi.js
+- discordjs-lofy
 - discordsystem
 - electorn
 - elm-combine
@@ -160,9 +161,12 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - m-backdoor
 - mapbox-gl-shaders
 - mariadb
+- mattermost-mobile
+- mattermost-mobile-e2e
 - maybemaliciouspackage
 - mendiff
 - meupkgdeteste
+- momnet
 - monent
 - mongose
 - motiv.scss
