@@ -286,8 +286,10 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 ### pypi
 - 10cent10
 - 10cent11
+- aadhaarcrypt
 - acqusition
 - apidev-coop
+- apple-py-music
 - are
 - aryi
 - aws-login0tool
@@ -353,6 +355,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - reols
 - req-tools
 - request
+- sagepay
 - smb
 - smplejson
 - suffer
