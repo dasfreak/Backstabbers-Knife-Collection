@@ -306,9 +306,12 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - django-server
 - dpp_client
 - dpp_client1234
+- easyfuncsys
 - easyinstall
 - fakessh
 - genesisbot
+- humanqueen
+- humanqueenn
 - important-package
 - importantpackage
 - ipboards
@@ -367,6 +370,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - urlib3
 - urllib
 - virtualnv
+- xss
 - yandex-yt
 - yiffparty
 
