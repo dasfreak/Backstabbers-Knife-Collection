@@ -288,6 +288,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - 10cent11
 - aadhaarcrypt
 - acqusition
+- aiohttp-socks5
 - apidev-coop
 - apple-py-music
 - are
