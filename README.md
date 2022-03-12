@@ -289,6 +289,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - aadhaarcrypt
 - acqusition
 - aiohttp-socks5
+- aiohttp_proxies
 - apidev-coop
 - apple-py-music
 - are
@@ -360,6 +361,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - req-tools
 - request
 - sagepay
+- secrevtwo
 - smb
 - smplejson
 - suffer
