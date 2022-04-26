@@ -1572,6 +1572,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - diango
 - discordsafety
 - distrib
+- disutil
 - djago
 - djanga
 - django-server
@@ -2450,3 +2451,4 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - vagrant_hvinfo
 - wordify-stuckiest
 - workarea-gift-cards
+
