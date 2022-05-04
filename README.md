@@ -580,6 +580,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - collect-updates
 - collection-strong
 - collection-weak
+- colors_express
 - colorschemetool
 - colour-string
 - colro-name
