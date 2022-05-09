@@ -1393,6 +1393,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - spectral-ruleset-migrator
 - spectral-rulesets
 - spectral-runtime
+- speedy-ts-compiler
 - spreaker-sdk-js
 - sqlite.js
 - sqliter
