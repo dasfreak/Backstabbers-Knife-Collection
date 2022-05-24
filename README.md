@@ -1554,6 +1554,9 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - zureexplorer2
 - zureexplorer3
 
+### packagist
+- hautelook_phpass
+
 ### pypi
 - 10cent10
 - 10cent11
@@ -1569,6 +1572,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - botaa3
 - bzip
 - colourama
+- ctx
 - dajngo
 - dark-magic
 - diango
