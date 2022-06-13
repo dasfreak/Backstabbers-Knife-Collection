@@ -750,6 +750,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - firebase-radar
 - first-with-side-effect
 - fix-regexp-well-known-symbol-logic
+- flame-vali
 - flat-surface-shader
 - flatmap-stream
 - floating-point-hex-parser
