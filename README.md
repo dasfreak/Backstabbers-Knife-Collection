@@ -1589,6 +1589,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - easyinstall
 - fakessh
 - genesisbot
+- hkg-sol-utils
 - humanqueen
 - humanqueenn
 - important-package
@@ -1622,6 +1623,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - pwd
 - pwniepip
 - pyconau-funtimes
+- pygrata
 - pyscrapy
 - pytagora
 - pytagora2
