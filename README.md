@@ -1571,6 +1571,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - aryi
 - aws-login0tool
 - botaa3
+- bs4tools
 - bzip
 - colourama
 - ctx
@@ -1588,6 +1589,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - easyfuncsys
 - easyinstall
 - fakessh
+- flask-requests-complex
 - genesisbot
 - hkg-sol-utils
 - humanqueen
@@ -1617,6 +1619,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - openvc
 - owlmoon
 - pandar
+- php-requests-complex
 - pip_security
 - pkgutil
 - pptest
