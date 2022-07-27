@@ -875,6 +875,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - hub-rss
 - hub-rss-widget
 - hulp
+- hwzpgf
 - hypercore-bisect
 - hypercore-logs
 - hypercore-logs-benchmark
@@ -1113,6 +1114,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - pay-with-bitpay
 - paypal-express
 - paywithaffirmtheme
+- pegleg_heart
 - pensi-scheduler
 - perf-ai-form-recognizer
 - perf-ai-metrics-advisor
