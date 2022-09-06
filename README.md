@@ -43,6 +43,19 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - https://nationalinterest.org/blog/skeptics/supply-chain-intelligence-dangerous-new-world-174458
 - https://www.iqt.org/can-open-source-code-steal-your-genome/
 - https://i.blackhat.com/USA21/Wednesday-Handouts/us-21-Securing-Open-Source-Software-End-To-End-At-Massive-Scale-Together.pdf
+- https://www.boozallen.com/insights/cyber/tech/insight-to-hunting-for-software-supply-chain-threats.html
+- https://opensourcesecuritypodcast.libsyn.com/episode-298-david-a-wheeler-discusses-the-openssf
+- https://checkmarx.com/resources/making-the-right-appsec-decisions/attackers-target-packages-in-multiple-programming-languages-in-recent-software-supply-chain-attacks
+- https://blog.chainguard.dev/taming-python-malware-scanners/
+- https://www.reddit.com/r/blueteamsec/comments/ll34bw/backstabbers_knife_collection_a_review_of_open/
+- https://www.opensourceforu.com/2022/08/data-protection-at-the-convergence-of-open-source-and-zero-trust/
+- https://web.stanford.edu/class/cs253/lectures/Lecture%2020.pdf
+- https://socket.dev/blog/inside-node-modules
+- https://tldrsec.com/blog/tldr-sec-038/
+- https://events.linuxfoundation.org/wp-content/uploads/2021/07/Developing-Secure-Open-Source-Software-OSS.pdf
+- https://www.davis-riedel.de/posts/software-sabotage-in-open-source-projects
+- https://cyber.gc.ca/sites/default/files/cyber/2021-12/Cyber-Threat-to-Operational-Technology-white_e.pdf
+- https://blog.dshr.org/2020/06/supporting-open-source-software.html
 - You?
 
 ## PACKAGE INDEX
@@ -2567,3 +2580,4 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - vagrant_hvinfo
 - wordify-stuckiest
 - workarea-gift-cards
+
