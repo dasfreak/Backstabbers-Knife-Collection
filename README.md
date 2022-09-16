@@ -555,6 +555,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - build-optimizer
 - businessemailvalidator
 - buymecoffetotellyou
+- ca-bucky-client
 - cache-browser-local-storage
 - cache-common
 - cadl-autorest
@@ -1592,6 +1593,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - arcalife
 - are
 - aryi
+- ascii2text
 - asn2crypto
 - aws-login0tool
 - bcrypto
@@ -1599,6 +1601,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - beautifulsoup4-new
 - bitcoinliv
 - botaa3
+- browserdiv
 - bs4tools
 - bzip
 - ccsv
@@ -1652,6 +1655,8 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - flak8
 - flake7
 - flask-requests-complex
+- free-net-vpn
+- free-net-vpn2
 - free-requests-module
 - fuzywuzy
 - fuzywuzzy
@@ -1729,9 +1734,12 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - pycryptdome
 - pycryptodomes
 - pydobc
+- pyg-utils
 - pygrata
 - pyinstaler
+- pymocks
 - pymongosinspired13
+- pyproto2
 - pypttt
 - pyscrapy
 - pytagora
@@ -1773,6 +1781,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - statmodels
 - statsmodel
 - suffer
+- test-async
 - threadin
 - threeding
 - tiktok-bots
@@ -1788,8 +1797,10 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - urlib3
 - urllib
 - uzzywuzzy
+- very-hackerman
 - virtualnv
 - web-requests-autmoation
+- winrpcexploit
 - xlibrary
 - xss
 - yandex-map
@@ -1805,6 +1816,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - youtube-new
 - yptt
 - ywin32
+- zlibsrc
 
 ### rubygems
 - 1-as-identity_function
@@ -2610,3 +2622,4 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - vagrant_hvinfo
 - wordify-stuckiest
 - workarea-gift-cards
+
