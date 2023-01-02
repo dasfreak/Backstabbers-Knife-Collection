@@ -1805,6 +1805,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - threeding
 - tiktok-bots
 - timeit
+- torchtriton
 - trrfab
 - trustpiphuh
 - trustpiphuh1
