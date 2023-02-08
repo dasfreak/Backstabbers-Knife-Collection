@@ -1690,6 +1690,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - apidev-coop
 - apple-py-music
 - apple-tv-new
+- aptx
 - arcalife
 - are
 - aryi
