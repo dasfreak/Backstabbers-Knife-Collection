@@ -1702,6 +1702,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - beautifulsoup-new
 - beautifulsoup4-new
 - belarusbetter
+- bingchilling2
 - bitcoinliv
 - botaa3
 - browserdiv
