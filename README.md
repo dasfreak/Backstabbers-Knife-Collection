@@ -1683,6 +1683,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - acqusition
 - advenced-requests
 - ahahjesus
+- aio5
 - aiohttp-socks5
 - aiohttp_proxies
 - andex-maps
@@ -1778,7 +1779,16 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - historic-crypt
 - hkg-sol-utils
 - hreading
+- htps1
+- httiop
 - http-interact
+- httplat
+- httpssp
+- httpssus
+- httpxgetter
+- httpxmodifier
+- httpxrequester
+- httpxrequesterv2
 - humanqueen
 - humanqueenn
 - igtool
@@ -1836,6 +1846,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - pencv-python
 - php-requests-complex
 - pip_security
+- piphttps
 - pkgutil
 - playsoun
 - pptest
@@ -1908,6 +1919,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - trustpiphuh
 - trustpiphuh1
 - trustypip
+- ulrlib3
 - ultrarequests
 - updated-requests
 - upgrade-requests
@@ -1919,6 +1931,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - virtualnv
 - web-requests-autmoation
 - winrpcexploit
+- xhttpsp
 - xlibrary
 - xss
 - yandex-map
