@@ -1723,6 +1723,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - aio5
 - aiohttp-socks5
 - aiohttp_proxies
+- aiotoolbox
 - andex-maps
 - android-plus-new
 - antchain_sdk_acs_iot
@@ -1833,6 +1834,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - fuzzywuzy
 - fuzzzywuzzy
 - genesisbot
+- gisi
 - hameni
 - historic-crypt
 - hkg-sol-utils
@@ -1921,6 +1923,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - pwd
 - pwniepip
 - pycbytes
+- pycolorz
 - pyconau-funtimes
 - pycryptdome
 - pycryptodomes
@@ -1997,6 +2000,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - trustypip
 - tshawn_lrce
 - tshawn_wrce
+- ttlo
 - ulrlib3
 - ultrarequests
 - updated-requests
