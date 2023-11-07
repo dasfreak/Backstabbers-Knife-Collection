@@ -67,6 +67,8 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 ### npm
 - 1337qq-js
 - 1ru-cache
+- 30-days-of-javascript
+- 33-js-concepts
 - 4equest
 - @bootsantos_bootsantos
 - @olxbr_gitlab-node-sdk
@@ -99,6 +101,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - airpal
 - ali-react-table-monorepo
 - alicon
+- aliyundrive
 - alpha-wallet-android
 - alprazolamdiv
 - amazing_auth_rails
@@ -127,6 +130,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - applicationinsights-react-js
 - applicationinsights-shims
 - applicationinsights-web
+- arduino-ide-extension
 - arewyoumadatme
 - arm-advisor
 - arm-analysisservices
@@ -490,6 +494,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - babel-plugin-svg-em-dimensions
 - babel-plugin-transform-svg-component
 - babel-preset-geocaching
+- babel-preset-slick
 - babelcli
 - banana-module
 - bank-aa
@@ -641,6 +646,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - com.ringcentral
 - commander-js
 - commender
+- commons-skin
 - communication-chat
 - communication-common
 - communication-identity
@@ -793,6 +799,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - dup-glob
 - duty-manager
 - dynamicproto-js
+- echarts-www
 - eclipse-typescript
 - elasticagent
 - elasticagent-linux-arm
@@ -809,6 +816,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - engage-voice-embeddable
 - engine-user-agent
 - engine-v8-version
+- engine.io-client-v3
 - engineering-portal
 - ent-screenshare
 - enum-bug-keys
@@ -884,6 +892,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - gatsby-site
 - gdn-usedotnet
 - generate-doc
+- generate-protocol
 - geocaching-express-account-middleware
 - geocomponents
 - geoheat
@@ -971,6 +980,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - helper-wasm-bytecode
 - helper-wasm-section
 - helper-wrap-function
+- hexojs
 - hidden-keys
 - hive-proxy
 - hl7.fhir
@@ -1066,6 +1076,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - ladder-text-js
 - language-service
 - language-service-next
+- layui.js
 - leaflet-gpx
 - leaflet-opencage-search
 - leetlog
@@ -1080,6 +1091,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - lifeculer
 - link-bins
 - link_mollie
+- linkis-website
 - liquidweb-woocommerce-gdpr
 - load-from-cwd-or-npm
 - load-nyc-config
@@ -1416,6 +1428,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - read-project-manifest
 - realm-postgres-adapters
 - redefine-all
+- redis-v4
 - redtail-embeddable-ringcentral-phone
 - reflect_decorators
 - regenraotr
@@ -1455,6 +1468,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - ringcentral-js-widgets
 - ringcentral-media-player
 - ringpop-ui
+- rocketmq-site
 - rpc-websocket
 - rrgod
 - run-lifecycle
@@ -1475,6 +1489,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - samples-cors-typescript-server
 - samples-web-workers-js
 - satoshi-fire-alarm
+- scan4all
 - scope-manager
 - scopely-mopub-aacebookaudiencenetwork-adapters
 - scroool
@@ -1487,6 +1502,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - selfbot-developer
 - selfbotdiv
 - semantic-conventions
+- sequelize-orm
 - serotonine320
 - serverbeat
 - service-bus-track-1
@@ -1511,6 +1527,7 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - slush-fullstack-framework
 - small-sm
 - smb
+- socket.io-client-v2
 - soket.io
 - soket.js
 - solc-0.4.13
@@ -1532,9 +1549,12 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - spectral-runtime
 - speedy-ts-compiler
 - spreaker-sdk-js
+- spring-projects
 - sqlite.js
 - sqliter
 - sqlserver
+- sshwifty
+- sshwifty-ui
 - stackdriver-pushgateway
 - stars-color
 - stars-colors
@@ -1610,7 +1630,9 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - trin-glob
 - ts-command-line
 - ts-genapi
+- tsconfig-slick
 - tslint-shared
+- tslint-slick
 - turbine_helper
 - turing-ui
 - twilio-npm
@@ -1623,6 +1645,11 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - uglyfi-js
 - ui-challenge
 - ungap__url-search-params
+- unieap
+- unieap-android
+- unieap-cloud
+- unieap-ios
+- unieap-spring
 - unist
 - unitless
 - universal-token
@@ -1687,7 +1714,14 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - wrapped-well-known-symbol
 - write-log-file
 - write-project-manifest
+- www-site
+- xterm-addon-clipboard
+- xterm-addon-unicode-graphemes
 - yeoman-genrator
+- yinhai
+- yinhai-cloud
+- yinhai-ta3
+- yinhai-ta3-cloud
 - youtrack-activities-widget
 - youtrack-board-status-widget
 - youtrack-exportable-work-items-widget
