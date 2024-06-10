@@ -4,7 +4,8 @@
 ![Dataset of malicious packages from open source supply chain attacks](backstabbers-knife-collection-logo.png)
 
 ## HOW TO GET ACCESS?
-shoot me an email (ohm[at]cs.uni-bonn.de)
+Send me an email (ohm[at]cs.uni-bonn.de) from your institute's email address containing your research idea and your GitHub account name.
+We will only respond to inquiries from individuals with a valid email address from reputable organizations.
 
 ## CITE US
 ```
@@ -2316,7 +2317,6 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - esqrecv
 - esqreinfore
 - esqrenvidiaad
-- esqreplacegrandpyw
 - esqreplaceguistudy
 - esqrepullstring
 - esqrepymc
@@ -2357,7 +2357,6 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - etuptool
 - etuptools
 - ewbsocket-client
-- exotel
 - ezbeamer
 - ezbeamsw
 - fake-cash-app-money-generator-2022
@@ -2912,7 +2911,6 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - promtp-toolkit
 - proofed
 - proofhttp
-- proofmask
 - proofmc
 - proofpip
 - proofpong
@@ -3000,7 +2998,6 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - py-intelpepsplit
 - py-intelpingvm
 - py-intelproofcandy
-- py-intload
 - py-killtoolad
 - py-lgtbminecc
 - py-lgtbosintload
@@ -3535,7 +3532,6 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - selfhydrastudycc
 - selfinfocraftlib
 - selfinfopaypalad
-- selfinfoponged
 - selfinfopushpip
 - selfinfovisakill
 - selfintcontrol
@@ -3584,7 +3580,6 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - selfpingponggame
 - selfpingrampep
 - selfpingvisa
-- selfponged
 - selfponggui
 - selfpongnvidia
 - selfpongpull
@@ -3891,7 +3886,6 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - tpmaskvisacontrol
 - tpmcpongpaypal
 - tpminekill
-- tpminepaypal
 - tpminesuperpip
 - tpminever
 - tpnvidiaintelpush
@@ -5028,4 +5022,3 @@ shoot me an email (ohm[at]cs.uni-bonn.de)
 - vagrant_hvinfo
 - wordify-stuckiest
 - workarea-gift-cards
-
