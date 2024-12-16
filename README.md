@@ -5033,3 +5033,23 @@ We will only respond to inquiries from individuals with a valid email address fr
 - wordify-stuckiest
 - workarea-gift-cards
 
+### vscode
+- btwiuse.vscode-remote-server
+- code-tester.code-tester
+- ericsson123.darkthemed
+- flydcode.codelinter
+- flydcode.codewithfriends
+- gavinwood.soliditylang
+- gitkraken-dev.gitlens-pro
+- glenn-marks1990.live-sass-compiler
+- guozebin.api-generator-plugin
+- k3s0externobyes.k3s0externobyes
+- nealkornet.theme-darcula-dark
+- solidity.solidity-language
+- sopspub.org
+- starkwang.figimg
+- starkwang.itxishu
+- testuseracc1111.python-vscode
+- viralvaghela.normalnameimgtest
+- vukrosic.openaicodexplayground
+
