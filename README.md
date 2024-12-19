@@ -82,6 +82,7 @@ We will only respond to inquiries from individuals with a valid email address fr
 - a-possible-prototype
 - a11y-speak
 - aa-testkit
+- aaaa89852889
 - acookie
 - actions-next-bundle-analyzer
 - actions-toolbox
@@ -796,6 +797,7 @@ We will only respond to inquiries from individuals with a valid email address fr
 - dontgothereever
 - dontinstallmeiamatest
 - dortmond22
+- downloadsolara
 - dtdl-parser
 - duc.components.cardshell
 - duc.fragments.spinner
@@ -1534,6 +1536,7 @@ We will only respond to inquiries from individuals with a valid email address fr
 - socket.io-client-v2
 - soket.io
 - soket.js
+- solara-config
 - solc-0.4.13
 - somewhereinbetween
 - sonatype
@@ -1707,6 +1710,8 @@ We will only respond to inquiries from individuals with a valid email address fr
 - wf_scheduler
 - wf_storage
 - whatsnewingoland
+- windows-confirm
+- windows-version-check
 - wm-babel-runtime
 - wm-jquery
 - wm-xpath-utils
