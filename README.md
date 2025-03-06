@@ -1874,6 +1874,7 @@ We will only respond to inquiries from individuals with a valid email address fr
 - asyncio-box
 - asyncoi
 - atplotlib
+- automslc
 - aws-login0tool
 - awscl
 - awsclie
@@ -3665,6 +3666,7 @@ We will only respond to inquiries from individuals with a valid email address fr
 - sentinelone
 - sentinelone-sdk
 - sentinelonesdk
+- set_utils
 - setnetwork
 - settinginmaass
 - sfox-ecdsa
