@@ -283,6 +283,7 @@ We will only respond to inquiries from individuals with a valid email address fr
 - arm-webpubsub
 - arm-webservices
 - arm-workspaces
+- array-empty-validator
 - array-iteration
 - array-method-has-species-support
 - array-method-uses-to-length
@@ -290,6 +291,7 @@ We will only respond to inquiries from individuals with a valid email address fr
 - asset_cli_tool
 - ast-viewer
 - async-controller
+- auth-validator
 - autocomplete-core
 - autocomplete-preset-algolia
 - autocomplete-shared
@@ -838,6 +840,7 @@ We will only respond to inquiries from individuals with a valid email address fr
 - eslint-scope
 - esprime
 - ethers-4
+- event-handle-package
 - event-hubs
 - event-hubs-track-1
 - event-processor-host
@@ -1033,6 +1036,7 @@ We will only respond to inquiries from individuals with a valid email address fr
 - iot-device-update-rest
 - iot-modelsrepository
 - is-array-iterator-method
+- is-buffer-validator
 - is-forced
 - is-prop-valid
 - iterators-core
@@ -1427,6 +1431,7 @@ We will only respond to inquiries from individuals with a valid email address fr
 - react-bootcamp
 - react-datepicker-plus
 - react-dropzone-3
+- react-event-dependency
 - react-hackernews-bootcamp-one-v2
 - react-vis-master
 - react-window-provider
@@ -1732,6 +1737,7 @@ We will only respond to inquiries from individuals with a valid email address fr
 - yinhai-cloud
 - yinhai-ta3
 - yinhai-ta3-cloud
+- yoojae-validator
 - youtrack-activities-widget
 - youtrack-board-status-widget
 - youtrack-exportable-work-items-widget
