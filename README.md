@@ -2162,6 +2162,7 @@ We will only respond to inquiries from individuals with a valid email address fr
 - discrd-webhook
 - discrod-py
 - discrod-webhook
+- disgrasya
 - disocrd-py
 - disocrd-webhook
 - disord-py
