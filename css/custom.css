@@ -1,0 +1,57 @@
+.section-padding {
+    padding: 4rem 0;
+}
+
+.citation {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-left: 4px solid #007bff;
+    margin-top: 20px;
+    text-align: left;
+    overflow-x: auto;
+}
+
+.citation pre {
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.card-title {
+    margin-bottom: 0;
+}
+
+.feature-icon {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.accordion-button .badge {
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.carousel-item-content {
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 50px;
+}
+
+.carousel-item-content h5 {
+    margin-bottom: 10px;
+}
+
+.carousel-item-content a {
+    word-break: break-all;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}

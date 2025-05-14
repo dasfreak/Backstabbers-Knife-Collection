@@ -1,436 +1,287 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Backstabber's Knife Collection Dataset</title>
-    <meta name="description" content="Explore the Backstabber's Knife Collection: A comprehensive dataset of real-world malicious open source packages for understanding and mitigating software supply chain risks.">
-    <meta name="keywords" content="malicious packages, open source security, software supply chain, dataset, npm, pypi, rubygems, security research">
+  <title>Backstabber's Knife Collection Dataset</title>
+  <meta name="description" content="Explore the Backstabber's Knife Collection: A comprehensive dataset of real-world malicious open source packages for understanding and mitigating software supply chain risks.">
+  <meta name="keywords" content="malicious packages, open source security, software supply chain, dataset, npm, pypi, rubygems, security research">
 
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
-    <style>
-        .section-padding {
-            padding: 4rem 0;
-        }
-        .citation {
-            background-color: #e9ecef;
-            padding: 15px;
-            border-left: 4px solid #007bff;
-            margin-top: 20px;
-            text-align: left;
-            overflow-x: auto;
-        }
-        .citation pre {
-            margin: 0;
-            white-space: pre-wrap;
-            word-wrap: break-word;
-        }
-        .card-title {
-            margin-bottom: 0;
-        }
-        .feature-icon {
-            font-size: 1.5rem;
-            color: #007bff;
-        }
-        .accordion-button .badge {
-            margin-left: 8px;
-            vertical-align: middle;
-        }
-        .carousel-item-content {
-            padding: 20px;
-            border-radius: 5px;
-            min-height: 120px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            margin: 0 50px;
-        }
-        .carousel-item-content h5 {
-            margin-bottom: 10px;
-        }
-        .carousel-item-content a {
-            word-break: break-all;
-        }
-         .carousel-control-prev,
-        .carousel-control-next {
-            width: 5%;
-        }
-    </style>
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+  <link href="css/bootstrap-5.3.6.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/fontawesome-6.7.2.css">
+  <link rel="stylesheet" href="css/custom.css">
 </head>
+
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"><i class="fa-solid fa-cubes"></i> Backstabber's Knife Collection</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#features">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#examples">Examples</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#access">Access</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <div class="bg-light text-center py-5 mb-4 mt-4">
-        <div class="container">
-            <h1 class="display-4">
-                Unmasking Malicious Open Source Components
-            </h1>
-            <p class="lead">Explore the Backstabber's Knife Collection: A comprehensive dataset of real-world malicious packages.</p>
-            <hr class="my-4">
-            <p>Understand the threats lurking in open source dependencies and strengthen your software supply chain security.</p>
-
-            <a class="btn btn-primary btn-lg" href="#about" role="button">Learn More</a>
-            <a class="btn btn-success btn-lg" href="https://link.springer.com/chapter/10.1007/978-3-030-52683-2_2" target="_blank" role="button">Read the Paper</a>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-cubes"></i> Backstabber's Knife Collection</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#examples">Examples</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#access">Access</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    <section id="about" class="section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 mx-auto text-center">
-                    <h2>About the Dataset</h2>
-                </div>
-                    <p class="lead">The Backstabber's Knife Collection is a unique dataset meticulously curated to provide insights into malicious open source software components observed in real-world attacks starting 2015. Sourced from popular package repositories like npm, PyPI, RubyGems, and more, this collection is an invaluable resource for researchers, security professionals, and developers aiming to understand and mitigate software supply chain risks.</p>
-                </div>
-            </div>
-    </section>
+  <div class="bg-light text-center py-5 mb-4 mt-4">
+    <div class="container">
+      <h1 class="display-4">
+        Unmasking Malicious Open Source Components
+      </h1>
+      <p class="lead">Explore the Backstabber's Knife Collection: A comprehensive dataset of real-world malicious packages.</p>
+      <hr class="my-4">
+      <p>Understand the threats lurking in open source dependencies and strengthen your software supply chain security.</p>
 
-    <section id="features" class="section-padding bg-light">
-        <div class="container">
-            <h2 class="text-center mb-4">Key Features</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <div class="d-flex align-items-center mb-3">
-                                <i class="fas fa-bug feature-icon me-2"></i>
-                                <h5 class="card-title">Real-World Attacks</h5>
-                            </div>
-                            <p class="card-text">Contains samples from actual attacks, offering practical insights into prevalent malicious techniques.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <div class="d-flex align-items-center mb-3">
-                                <i class="fas fa-cubes feature-icon me-2"></i>
-                                <h5 class="card-title">Multi-Ecosystem Coverage</h5>
-                            </div>
-                            <p class="card-text">Includes malicious packages from npm, PyPI, RubyGems, and more, reflecting diverse attack vectors.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <div class="d-flex align-items-center mb-3">
-                                <i class="fas fa-book feature-icon me-2"></i>
-                                <h5 class="card-title">Research Backing</h5>
-                            </div>
-                            <p class="card-text">Based on research presented in a scientific paper, ensuring data quality and relevance.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <a class="btn btn-primary btn-lg" href="#about" role="button">Learn More</a>
+      <a class="btn btn-success btn-lg" href="https://link.springer.com/chapter/10.1007/978-3-030-52683-2_2" target="_blank" role="button">Read the Paper</a>
+    </div>
+  </div>
+
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <h2>About the Dataset</h2>
         </div>
-    </section>
+        <p class="lead">The Backstabber's Knife Collection is a unique dataset meticulously curated to provide insights into malicious open source software components observed in real-world attacks starting 2015. Sourced from popular package repositories like npm, PyPI, RubyGems, and more, this collection is an invaluable resource for researchers, security professionals, and developers aiming to understand and mitigate software supply chain risks.</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="examples" class="section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 mx-auto text-center">
-                    <h2>Explore Malicious Package Examples</h2>
-                    <p class="lead">Browse examples of malicious packages included in the dataset, categorized by ecosystem.</p>
-
-                    <div class="accordion" id="examplesAccordion">
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingNpm">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNpm" aria-expanded="false" aria-controls="collapseNpm">
-                                    npm
-                                </button>
-                            </h2>
-                            <div id="collapseNpm" class="accordion-collapse collapse" aria-labelledby="headingNpm" data-bs-parent="#examplesAccordion">
-                                <div class="accordion-body">
-                                    <ul class="list-group list-group-flush text-start">
-                                                                           </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingVscode">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVscode" aria-expanded="false" aria-controls="collapseVscode">
-                                    VS Code
-                                </button>
-                            </h2>
-                            <div id="collapseVscode" class="accordion-collapse collapse" aria-labelledby="headingVscode" data-bs-parent="#examplesAccordion">
-                                <div class="accordion-body">
-                                     <ul class="list-group list-group-flush text-start">
-                                                                             </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingRubygems">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRubygems" aria-expanded="false" aria-controls="collapseRubygems">
-                                    RubyGems
-                                </button>
-                            </h2>
-                            <div id="collapseRubygems" class="accordion-collapse collapse" aria-labelledby="headingRubygems" data-bs-parent="#examplesAccordion">
-                                <div class="accordion-body">
-                                     <ul class="list-group list-group-flush text-start">
-                                                                                </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingMavencentral">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMavencentral" aria-expanded="false" aria-controls="collapseMavencentral">
-                                    Maven Central
-                                </button>
-                            </h2>
-                            <div id="collapseMavencentral" class="accordion-collapse collapse" aria-labelledby="headingMavencentral" data-bs-parent="#examplesAccordion">
-                                <div class="accordion-body">
-                                     <ul class="list-group list-group-flush text-start">
-                                                                                </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingPackagist">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePackagist" aria-expanded="false" aria-controls="collapsePackagist">
-                                    Packagist
-                                </button>
-                            </h2>
-                            <div id="collapsePackagist" class="accordion-collapse collapse" aria-labelledby="headingPackagist" data-bs-parent="#examplesAccordion">
-                                <div class="accordion-body">
-                                     <ul class="list-group list-group-flush text-start">
-                                                                                </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingPypi">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePypi" aria-expanded="false" aria-controls="collapsePypi">
-                                    PyPI
-                                </button>
-                            </h2>
-                            <div id="collapsePypi" class="accordion-collapse collapse" aria-labelledby="headingPypi" data-bs-parent="#examplesAccordion">
-                                <div class="accordion-body">
-                                     <ul class="list-group list-group-flush text-start">
-                                                                                </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div> <a class="btn btn-outline-primary mt-4" href="#access" role="button">Access the Dataset for the Full Index and Metadata</a>
-                </div>
+  <section id="features" class="section-padding bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Key Features</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-3">
+                <i class="fas fa-bug feature-icon me-2"></i>
+                <h5 class="card-title">Real-World Attacks</h5>
+              </div>
+              <p class="card-text">Contains samples from actual attacks, offering practical insights into prevalent malicious techniques.</p>
             </div>
+          </div>
         </div>
-    </section>
-
-
-    <section id="media" class="section-padding bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 mx-auto text-center">
-                    <h2>Media Coverage</h2>
-                    <p class="lead">Explore articles and mentions of the Backstabbers' Knife Collection in the media and research.</p>
-                </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-3">
+                <i class="fas fa-cubes feature-icon me-2"></i>
+                <h5 class="card-title">Multi-Ecosystem Coverage</h5>
+              </div>
+              <p class="card-text">Includes malicious packages from npm, PyPI, RubyGems, and more, reflecting diverse attack vectors.</p>
             </div>
-            <div class="row mt-4">
-                <div class="col-md-10 mx-auto">
-                    <div id="mediaCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                             <!-- Items generated by JS -->
-                        </div>
-                        <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#mediaCarousel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next bg-dark" type="button" data-bs-target="#mediaCarousel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </section>
-
-    <section id="access" class="section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 mx-auto text-center">
-                    <h2>How to Access the Dataset</h2>
-                    <p class="lead">The Backstabbers' Knife Collection is available for research and security purposes.</p>
-                    <p>Send me an email (ohm[at]cs.uni-bonn.de) from your institute's email address containing your research idea and your GitHub account name. We will only respond to inquiries from individuals with a valid email address from reputable organizations.</p>
-                </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-3">
+                <i class="fas fa-book feature-icon me-2"></i>
+                <h5 class="card-title">Research Backing</h5>
+              </div>
+              <p class="card-text">Based on research presented in a scientific paper, ensuring data quality and relevance.</p>
             </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section id="contact" class="section-padding bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 mx-auto text-center">
-                    <h2>Contact and More Information</h2>
-                    <p class="lead">For questions, collaborations, or more details about the Backstabber's Knife Collection, please visit the official repository or refer to the associated research paper.</p>
-                    <p><strong>Official Repository:</strong> <a href="https://github.com/cybertier/Backstabbers-Knife-Collection" target="_blank">https://github.com/cybertier/Backstabbers-Knife-Collection</a></p>
-                    <p><strong>Associated Research Paper:</strong> <a href="https://link.springer.com/chapter/10.1007/978-3-030-52683-2_2" target="_blank">Backstabber's Knife Collection: A Review of Open Source Software Supply Chain Attacks</a></p>
-                    <p><strong>Related Dataset (PyPI):</strong> <a href="https://github.com/lxyeternal/pypi_malregistry" target="_blank">pypi_malregistry</a> - This dataset is described by Guo et al. in the ASE 2023 paper "An Empirical Study of Malicious Code In PyPI Ecosystem" and has been integrated into the Backstabber's Knife Collection.</p>
+  <section id="examples" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <h2>Explore Malicious Package Examples</h2>
+          <p class="lead">Browse examples of malicious packages included in the dataset, categorized by ecosystem.</p>
 
-                    <div class="citation mx-auto">
-                        <h6>Citation Recommendation:</h6>
-                        <pre><code>@inproceedings{ohm2020backstabber,
+          <div class="accordion" id="examplesAccordion">
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingNpm">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNpm" aria-expanded="false" aria-controls="collapseNpm">
+                  npm
+                </button>
+              </h2>
+              <div id="collapseNpm" class="accordion-collapse collapse" aria-labelledby="headingNpm" data-bs-parent="#examplesAccordion">
+                <div class="accordion-body">
+                  <ul class="list-group list-group-flush text-start">
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingVscode">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVscode" aria-expanded="false" aria-controls="collapseVscode">
+                  VS Code
+                </button>
+              </h2>
+              <div id="collapseVscode" class="accordion-collapse collapse" aria-labelledby="headingVscode" data-bs-parent="#examplesAccordion">
+                <div class="accordion-body">
+                  <ul class="list-group list-group-flush text-start">
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingRubygems">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRubygems" aria-expanded="false" aria-controls="collapseRubygems">
+                  RubyGems
+                </button>
+              </h2>
+              <div id="collapseRubygems" class="accordion-collapse collapse" aria-labelledby="headingRubygems" data-bs-parent="#examplesAccordion">
+                <div class="accordion-body">
+                  <ul class="list-group list-group-flush text-start">
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingMavencentral">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMavencentral" aria-expanded="false" aria-controls="collapseMavencentral">
+                  Maven Central
+                </button>
+              </h2>
+              <div id="collapseMavencentral" class="accordion-collapse collapse" aria-labelledby="headingMavencentral" data-bs-parent="#examplesAccordion">
+                <div class="accordion-body">
+                  <ul class="list-group list-group-flush text-start">
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingPackagist">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePackagist" aria-expanded="false" aria-controls="collapsePackagist">
+                  Packagist
+                </button>
+              </h2>
+              <div id="collapsePackagist" class="accordion-collapse collapse" aria-labelledby="headingPackagist" data-bs-parent="#examplesAccordion">
+                <div class="accordion-body">
+                  <ul class="list-group list-group-flush text-start">
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingPypi">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePypi" aria-expanded="false" aria-controls="collapsePypi">
+                  PyPI
+                </button>
+              </h2>
+              <div id="collapsePypi" class="accordion-collapse collapse" aria-labelledby="headingPypi" data-bs-parent="#examplesAccordion">
+                <div class="accordion-body">
+                  <ul class="list-group list-group-flush text-start">
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div> <a class="btn btn-outline-primary mt-4" href="#access" role="button">Access the Dataset for the Full Index and Metadata</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="media" class="section-padding bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <h2>Media Coverage</h2>
+          <p class="lead">Explore articles and mentions of the Backstabbers' Knife Collection in the media and research.</p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-10 mx-auto">
+          <div id="mediaCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <!-- Items generated by JS -->
+            </div>
+            <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#mediaCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next bg-dark" type="button" data-bs-target="#mediaCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="access" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <h2>How to Access the Dataset</h2>
+          <p class="lead">The Backstabbers' Knife Collection is available for research and security purposes.</p>
+          <p>Send me an email (ohm[at]cs.uni-bonn.de) from your institute's email address containing your research idea and your GitHub account name. We will only respond to inquiries from individuals with a valid email address from reputable organizations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section-padding bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <h2>Contact and More Information</h2>
+          <p class="lead">For questions, collaborations, or more details about the Backstabber's Knife Collection, please visit the official repository or refer to the associated research paper.</p>
+          <p><strong>Official Repository:</strong> <a href="https://github.com/cybertier/Backstabbers-Knife-Collection" target="_blank">https://github.com/cybertier/Backstabbers-Knife-Collection</a></p>
+          <p><strong>Associated Research Paper:</strong> <a href="https://link.springer.com/chapter/10.1007/978-3-030-52683-2_2" target="_blank">Backstabber's Knife Collection: A Review of Open Source Software Supply Chain Attacks</a></p>
+          <p><strong>Related Dataset (PyPI):</strong> <a href="https://github.com/lxyeternal/pypi_malregistry" target="_blank">pypi_malregistry</a> - This dataset is described by Guo et al. in the ASE 2023 paper "An Empirical Study of Malicious Code In PyPI Ecosystem" and has been integrated into the Backstabber's Knife Collection.</p>
+
+          <div class="citation mx-auto">
+            <h6>Citation Recommendation:</h6>
+            <pre><code>@inproceedings{ohm2020backstabber,
   title={Backstabber's Knife Collection: A Review of Open Source Software Supply Chain Attacks},
   author={Ohm, Marc and Plate, Henrik and Sykosch, Arnold and Meier, Michael},
   booktitle={International Conference on Detection of Intrusions and Malware, and Vulnerability Assessment},
   year={2020},
   organization={Springer}
 }</code></pre>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2025 | Backstabber's Knife Collection Dataset | All rights reserved</p>
-    </footer>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 | Backstabber's Knife Collection Dataset | All rights reserved</p>
+  </footer>
+  <script src="js/bootstrap-5.3.6.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
 
-        <script>
-        document.addEventListener('DOMContentLoaded', function() {
-
-            // Accordion Packages Section Logic (keep existing)
-            const ecosystemMapping = {
-                'npm': { collapseId: '#collapseNpm', headingId: '#headingNpm' },
-                'vscode': { collapseId: '#collapseVscode', headingId: '#headingVscode' },
-                'rubygems': { collapseId: '#collapseRubygems', headingId: '#headingRubygems' },
-                'mavencentral': { collapseId: '#collapseMavencentral', headingId: '#headingMavencentral' },
-                'packagist': { collapseId: '#collapsePackagist', headingId: '#headingPackagist' },
-                'pypi': { collapseId: '#collapsePypi', headingId: '#headingPypi' }
-            };
-
-            function populateListAndAddBadge(ecosystemKey, packageList) {
-                const mapping = ecosystemMapping[ecosystemKey];
-                if (!mapping) { console.warn(`Mapping not found for ecosystem key: ${ecosystemKey}`); return; }
-                const collapseElement = document.querySelector(mapping.collapseId);
-                const accordionButton = document.querySelector(mapping.headingId + ' .accordion-button');
-                if (collapseElement && accordionButton) {
-                    const ulElement = collapseElement.querySelector('.accordion-body ul');
-                    if (ulElement) {
-                        ulElement.innerHTML = '';
-                        packageList.sort();
-                        packageList.forEach(packageName => {
-                            const li = document.createElement('li'); li.classList.add('list-group-item'); li.textContent = packageName; ulElement.appendChild(li);
-                        });
-                        const listItemCount = packageList.length;
-                        const existingBadge = accordionButton.querySelector('.badge'); if (existingBadge) { existingBadge.remove(); }
-                        if (listItemCount > 0) { const badge = document.createElement('span'); badge.classList.add('badge', 'bg-secondary', 'rounded-pill', 'ms-2'); badge.textContent = listItemCount; accordionButton.appendChild(badge); }
-                    } else { console.error(`Could not find UL element inside ${mapping.collapseId}`); }
-                } else { console.error(`Could not find collapse element with ID ${mapping.collapseId} or accordion button for heading ${mapping.headingId}`); }
-            }
-
-            // Fetch packages.json
-            fetch('packages.json')
-                .then(response => { if (!response.ok) { console.error(`HTTP error fetching packages.json! status: ${response.status}`); throw new Error(`HTTP error! status: ${response.status}`); } return response.json(); })
-                .then(data => {
-                    for (const ecosystemKey in ecosystemMapping) {
-                        const packageList = data[ecosystemKey];
-                        if (Array.isArray(packageList)) { populateListAndAddBadge(ecosystemKey, packageList); }
-                        else { console.warn(`Data for ecosystem "${ecosystemKey}" is missing or not an array in packages.json`); populateListAndAddBadge(ecosystemKey, []); }
-                    }
-                })
-                .catch(error => { console.error('Error fetching or parsing packages.json:', error); });
-
-
-            // Media Coverage Carousel Logic (New)
-
-            const mediaCarouselInner = document.querySelector('#mediaCarousel .carousel-inner');
-            const mediaDataUrl = 'media.json'; // Path to your media.json file
-
-            fetch(mediaDataUrl)
-                .then(response => {
-                    if (!response.ok) {
-                         console.error(`HTTP error fetching ${mediaDataUrl}! status: ${response.status}`);
-                         mediaCarouselInner.innerHTML = '<div class="carousel-item active"><div class="carousel-item-content"><p class="text-danger">Error loading media coverage.</p></div></div>';
-                         throw new Error(`HTTP error! status: ${response.status}`);
-                    }
-                    return response.json();
-                })
-                .then(mediaItems => {
-                    if (!Array.isArray(mediaItems) || mediaItems.length === 0) {
-                        mediaCarouselInner.innerHTML = '<div class="carousel-item active"><div class="carousel-item-content"><p>No media coverage found.</p></div></div>';
-                        console.warn('media.json is empty or not an array.');
-                        return;
-                    }
-
-                    // Clear existing carousel items
-                    mediaCarouselInner.innerHTML = '';
-
-                    // Add items from JSON data
-                    mediaItems.forEach((item, index) => {
-                        const carouselItem = document.createElement('div');
-                        carouselItem.classList.add('carousel-item');
-                        if (index === 0) {
-                            carouselItem.classList.add('active'); // Set the first item as active
-                        }
-
-                        carouselItem.innerHTML = `
-                            <div class="carousel-item-content">
-                                <h5>${item.title || 'Media Mention'}</h5> <!-- Use title from JSON or a default -->
-                                <p><a href="${item.url}" target="_blank">${item.url}</a></p>
-                            </div>
-                        `;
-
-                        mediaCarouselInner.appendChild(carouselItem);
-                    });
-
-                    // Optional: Manually initialize carousel if data-bs-ride="carousel" is not used
-                    // var myCarousel = document.querySelector('#mediaCarousel');
-                    // var carousel = new bootstrap.Carousel(myCarousel, { interval: 5000 }); // Auto cycle every 5 seconds
-
-                })
-                .catch(error => {
-                    console.error(`Error fetching or parsing ${mediaDataUrl}:`, error);
-                     // Display error message if fetch or parsing fails
-                    if (mediaCarouselInner.innerHTML === '') { // Avoid overwriting the fetch error message
-                         mediaCarouselInner.innerHTML = '<div class="carousel-item active"><div class="carousel-item-content"><p class="text-danger">Error loading media coverage.</p></div></div>';
-                    }
-                });
-
-        });
-        </script>
-        </body>
 </html>
+
