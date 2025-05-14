@@ -1,0 +1,150 @@
+[
+  {
+    "title": "Reproducible Builds Publications",
+    "url": "https://reproducible-builds.org/docs/publications/"
+  },
+  {
+    "title": "SPARTA EU Tweet",
+    "url": "https://twitter.com/sparta_eu/status/1314219751070146568"
+  },
+  {
+    "title": "SAP Blog: Attacks on Open Source Supply Chains",
+    "url": "https://blogs.sap.com/2020/06/26/attacks-on-open-source-supply-chains-how-hackers-poison-the-well/"
+  },
+  {
+    "title": "Hacker News Thread",
+    "url": "https://news.ycombinator.com/item?id=23244778"
+  },
+  {
+    "title": "Sonatype Blog: 2020 Software Supply Chain Report",
+    "url": "https://www.sonatype.com/2020ssc"
+  },
+  {
+    "title": "Phylum Blog: Malicious Packages, Typosquatting...",
+    "url": "https://blog.phylum.io/malicious-packages-typosquatting-and-other-attacks-against-open-source-dependencies/"
+  },
+  {
+    "title": "Phylum Blog: Malicious JavaScript in npm",
+    "url": "https://blog.phylum.io/malicious-javascript-code-in-npm-malware/"
+  },
+  {
+    "title": "Phylum Blog: State of npm",
+    "url": "https://blog.phylum.io/what-is-the-state-of-npm/"
+  },
+  {
+    "title": "PyPI Scan Documentation",
+    "url": "https://pypi-scan.readthedocs.io/en/latest/"
+  },
+  {
+    "title": "Xebia Blog: Open Source Supply Chain Attacks",
+    "url": "https://xebia.com/blog/open-source-supply-chain-attacks/"
+  },
+  {
+    "title": "Medium: Dependency Confusion by Alex Birsan",
+    "url": "https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610"
+  },
+  {
+    "title": "LWN.net Article",
+    "url": "https://lwn.net/Articles/834078/"
+  },
+  {
+    "title": "GitLab Blog: Announcing Package Hunter",
+    "url": "https://about.gitlab.com/blog/2021/07/23/announcing-package-hunter/"
+  },
+  {
+    "title": "Scythe.io Library: Malware Risks",
+    "url": "https://www.scythe.io/library/malware-risks-in-open-source-code"
+  },
+  {
+    "title": "Eclipse SAM-IoT 2020 Presentation",
+    "url": "https://events.eclipse.org/2020/sam-iot/presentations/K1-Presentation.pdf"
+  },
+  {
+    "title": "Giters: Software Supply Chain Compromises",
+    "url": "https://giters.com/tpike3/software-supply-chain-compromises"
+  },
+  {
+    "title": "CSEC.it Workshop Slides (Plate)",
+    "url": "https://csec.it/events/workshop-ecosystem/slides/Plate.pdf"
+  },
+  {
+    "title": "Cybersecurity Dive Article",
+    "url": "https://www.cybersecuritydive.com/news/open-source-software-security-rsa-supply-chain/600710/"
+  },
+  {
+    "title": "ETS MTL Research Project",
+    "url": "https://www.etsmtl.ca/recherche/etudes-superieures-et-recherche/projets-de-recherche-pour-etudiants/mining-software-updates-to-prevent-supply-chain-at/"
+  },
+  {
+    "title": "TalkPython.fm Podcast Episode",
+    "url": "https://talkpython.fm/episodes/show/319/typosquatting-and-supply-chains-vulnerabilities"
+  },
+  {
+    "title": "Wikipedia (Chinese): Supply Chain Attack",
+    "url": "https://zh.wikipedia.org/wiki/%E4%BE%9B%E5%BA%94%E9%93%BE%E6%94%BB%E5%87%BB"
+  },
+  {
+    "title": "National Interest Blog",
+    "url": "https://nationalinterest.org/blog/skeptics/supply-chain-intelligence-dangerous-new-world-174458"
+  },
+  {
+    "title": "IQT Blog: Open Source Code & Genome Security",
+    "url": "https://www.iqt.org/can-open-source-code-steal-your-genome/"
+  },
+  {
+    "title": "Black Hat USA 2021 Handout",
+    "url": "https://i.blackhat.com/USA21/Wednesday-Handouts/us-21-Securing-Open-Source-Software-End-To-End-At-Massive-Scale-Together.pdf"
+  },
+  {
+    "title": "Booz Allen Insights: Hunting Supply Chain Threats",
+    "url": "https://www.boozallen.com/insights/cyber/tech/insight-to-hunting-for-software-supply-chain-threats.html"
+  },
+  {
+    "title": "Open Source Security Podcast",
+    "url": "https://opensourcesecuritypodcast.libsyn.com/episode-298-david-a-wheeler-discusses-the-openssf"
+  },
+  {
+    "title": "Checkmarx Resource",
+    "url": "https://checkmarx.com/resources/making-the-right-appsec-decisions/attackers-target-packages-in-multiple-programming-languages-in-recent-software-supply-chain-attacks"
+  },
+    {
+    "title": "Chainguard Blog: Taming Python Malware Scanners",
+    "url": "https://blog.chainguard.dev/taming-python-malware-scanners/"
+  },
+  {
+    "title": "Reddit: r/blueteamsec Discussion",
+    "url": "https://www.reddit.com/r/blueteamsec/comments/ll34bw/backstabbers_knife_collection_a_review_of_open/"
+  },
+  {
+    "title": "Open Source For U Article",
+    "url": "https://www.opensourceforu.com/2022/08/data-protection-at-the-convergence-of-open-source-and-zero-trust/"
+  },
+  {
+    "title": "Stanford CS253 Lecture Slides",
+    "url": "https://web.stanford.edu/class/cs253/lectures/Lecture%2020.pdf"
+  },
+  {
+    "title": "Socket.dev Blog: Inside node_modules",
+    "url": "https://socket.dev/blog/inside-node-modules"
+  },
+  {
+    "title": "TLDR Sec Blog",
+    "url": "https://tldrsec.com/blog/tldr-sec-038/"
+  },
+  {
+    "title": "Linux Foundation Event Slides",
+    "url": "https://events.linuxfoundation.org/wp-content/uploads/2021/07/Developing-Secure-Open-Source-Software-OSS.pdf"
+  },
+  {
+    "title": "Davis-Riedel Blog: Software Sabotage",
+    "url": "https://www.davis-riedel.de/posts/software-sabotage-in-open-source-projects"
+  },
+  {
+    "title": "Cyber.gc.ca Report (PDF)",
+    "url": "https://cyber.gc.ca/sites/default/files/cyber/2021-12/Cyber-Threat-to-Operational-Technology-white_e.pdf"
+  },
+   {
+    "title": "Daniel Stenberg's Blog: Supporting Open Source",
+    "url": "https://blog.dshr.org/2020/06/supporting-open-source-software.html"
+  }
+]
