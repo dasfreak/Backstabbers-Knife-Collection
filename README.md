@@ -1,6 +1,5 @@
 # Backstabber's Knife Collection
 
-
 ## WHAT IS THIS?
 Landing page for the ![dataset of malicious packages from open source supply chain attacks](backstabbers-knife-collection-logo.png)
 
