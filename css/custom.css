@@ -1,7 +1,10 @@
 .section-padding {
     padding: 4rem 0;
 }
-
+#logo {
+    width: 10em;
+    margin-bottom: 1em;
+}
 .citation {
     background-color: #e9ecef;
     padding: 15px;
