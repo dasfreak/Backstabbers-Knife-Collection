@@ -12,6 +12,14 @@
     "url":"https://socradar.io/rise-of-malicious-packages-in-devops/"
   },
   {
+    "title":"Why attackers in Code packages are getting a Pass",
+    "url":"https://www.conf42.com/Python_2022_Tzachi_Zornstain_attackers_code_packages"
+  },
+  {
+    "title":"Detection and Prevention of Attacks on Open Source Software Supply Chains",
+    "url":"https://people.irisa.fr/Benoit.Combemale/pub/course/sle/SupplyChain-ESIR2425.pdf"
+  },
+  {
     "title":"Anatomy of Malicious Packages: What Are the Trends?",
     "url":"https://xygeni.io/blog/anatomy-of-malicious-packages-what-are-the-trends/"
   },
@@ -84,7 +92,7 @@
     "url":"https://www.scythe.io/library/malware-risks-in-open-source-code"
   },
   {
-    "title":"Eclipse SAM-IoT 2020 Presentation",
+    "title":"On the Bumpy Road to Secure Software Supply Chains",
     "url":"https://events.eclipse.org/2020/sam-iot/presentations/K1-Presentation.pdf"
   },
   {
@@ -96,7 +104,7 @@
     "url":"https://csec.it/events/workshop-ecosystem/slides/Plate.pdf"
   },
   {
-    "title":"Cybersecurity Dive Article",
+    "title":"Beware open source when going zero trust, expert says",
     "url":"https://www.cybersecuritydive.com/news/open-source-software-security-rsa-supply-chain/600710/"
   },
   {
@@ -104,7 +112,7 @@
     "url":"https://www.etsmtl.ca/recherche/etudes-superieures-et-recherche/projets-de-recherche-pour-etudiants/mining-software-updates-to-prevent-supply-chain-at/"
   },
   {
-    "title":"TalkPython.fm Podcast Episode",
+    "title":"Typosquatting and Supply Chains Vulnerabilities",
     "url":"https://talkpython.fm/episodes/show/319/typosquatting-and-supply-chains-vulnerabilities"
   },
   {
@@ -132,12 +140,12 @@
     "url":"https://opensourcesecuritypodcast.libsyn.com/episode-298-david-a-wheeler-discusses-the-openssf"
   },
   {
-    "title":"Checkmarx Resource",
-    "url":"https://checkmarx.com/resources/making-the-right-appsec-decisions/attackers-target-packages-in-multiple-programming-languages-in-recent-software-supply-chain-attacks"
+    "title":"Attacker Targets Packages in Multiple Programming Languages in Recent Software Supply Chain Attacks",
+    "url":"https://zero.checkmarx.com/attacker-targets-packages-in-multiple-programming-languages-in-recent-software-supply-chain-attacks-ccb4cc7601ed"
   },
   {
-    "title":"Chainguard Blog: Taming Python Malware Scanners",
-    "url":"https://blog.chainguard.dev/taming-python-malware-scanners/"
+    "title":"Announcing Chainguard Libraries for Python: Malware-Resistant Dependencies Built Securely from Source",
+    "url":"https://www.chainguard.dev/unchained/announcing-chainguard-libraries-for-python-malware-resistant-dependencies-built-securely-from-source"
   },
   {
     "title":"Reddit: r/blueteamsec Discussion",
@@ -174,5 +182,21 @@
   {
     "title":"Daniel Stenberg's Blog: Supporting Open Source",
     "url":"https://blog.dshr.org/2020/06/supporting-open-source-software.html"
+  },
+  {
+    "title":"Securing software supply chains and dependency confusion - An industry perspective",
+    "url":"https://www.sonatype.com/blog/securing-software-supply-chains-and-dependency-confusion-an-industry-perspective"
+  },
+  {
+    "title":"May Your Source Be Open! - SPARTA Hackathon II",
+    "url":"https://www.sparta.eu/events/2022-05-12-may-your-source-be-open-sparta-hackathon-ii.html"
+  },
+  {
+    "title":"New repository aims to illuminate open-source package vulnerabilities and malicious code",
+    "url":"https://siliconangle.com/2023/10/12/new-repository-aims-illuminate-open-source-package-vulnerabilities-malicious-code/"
+  },
+  {
+    "title":"Attackers targeting packages in multiple coding languages in recent software supply chain attacks",
+    "url":"https://itsupplychain.com/attackers-targeting-packages-in-multiple-coding-languages-in-recent-software-supply-chain-attacks/"
   }
 ]
