@@ -33,115 +33,110 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // --- Advanced Ecosystem Tab & Search Architecture ---
-  let originalData = {};
-
+  // Fetch packages data and dynamically generate accordions
   fetch("data/packages.json")
     .then((response) => {
-      if (!response.ok)
+      if (!response.ok) {
+        console.error(
+          `HTTP error fetching packages.json! status: ${response.status}`,
+        );
         throw new Error(`HTTP error! status: ${response.status}`);
+      }
       return response.json();
     })
     .then((data) => {
-      originalData = data;
-      const tabHeaderContainer = document.getElementById("ecosystemTabs");
-      const tabContentContainer = document.getElementById(
-        "ecosystemTabContent",
-      );
-      const searchInput = document.getElementById("packageSearch");
+      const examplesAccordion = document.getElementById("examplesAccordion");
+      if (!examplesAccordion) {
+        console.error("Examples accordion container element not found!");
+        return;
+      }
+      examplesAccordion.innerHTML = ""; // Clear any existing static content
 
-      if (!tabHeaderContainer || !tabContentContainer) return;
-
-      // Sort ecosystems by payload density volume
-      const sortedEcosystems = Object.keys(data)
-        .map((key) => ({
-          key: key,
-          packages: Array.isArray(data[key]) ? data[key].sort() : [],
-          count: Array.isArray(data[key]) ? data[key].length : 0,
-        }))
-        .sort((a, b) => b.count - a.count || a.key.localeCompare(b.key));
-
-      // Core Render Execution Engine
-      function renderEcosystems(filterText = "") {
-        tabHeaderContainer.innerHTML = "";
-        tabContentContainer.innerHTML = "";
-        let searchHasResults = false;
-
-        sortedEcosystems.forEach((eco, index) => {
-          // Filter array by search term string
-          const filteredPackages = eco.packages.filter((pkg) =>
-            pkg.toLowerCase().includes(filterText.toLowerCase()),
-          );
-
-          // Skip displaying ecosystem tab headers if filtering yields zero items
-          if (filterText && filteredPackages.length === 0) return;
-          searchHasResults = true;
-
-          const tabId = `pane-${eco.key}`;
-          const isFirst = tabHeaderContainer.children.length === 0;
-
-          // 1. Build Navigation Tab Link Elements
-          const navLi = document.createElement("li");
-          navLi.classList.add("nav-item");
-
-          const navBtn = document.createElement("button");
-          navBtn.className = `nav-link ${isFirst ? "active" : ""}`;
-          navBtn.id = `tab-${eco.key}`;
-          navBtn.dataset.bsToggle = "tab";
-          navBtn.dataset.bsTarget = `#${tabId}`;
-          navBtn.type = "button";
-          navBtn.role = "tab";
-          navBtn.innerHTML = `${capitalizeFirstLetter(eco.key)} <span class="badge rounded-pill bg-dark ms-1">${filteredPackages.length}</span>`;
-
-          navLi.appendChild(navBtn);
-          tabHeaderContainer.appendChild(navLi);
-
-          // 2. Build Content Pane Element Components
-          const pane = document.createElement("div");
-          pane.className = `tab-pane fade ${isFirst ? "show active" : ""}`;
-          pane.id = tabId;
-          pane.role = "tabpanel";
-
-          // Responsive column configuration framework grid
-          const rowGrid = document.createElement("div");
-          rowGrid.className = "row g-3";
-
-          filteredPackages.forEach((pkgName) => {
-            const colCell = document.createElement("div");
-            colCell.className = "col-sm-6 col-md-4 col-lg-3";
-            colCell.innerHTML = `
-                            <div class="package-item shadow-sm">
-                                <i class="fas fa-shield-virus"></i>
-                                <span class="text-truncate" title="${pkgName}">${pkgName}</span>
-                            </div>
-                        `;
-            rowGrid.appendChild(colCell);
+      // Create an array of ecosystem objects with their package counts
+      const ecosystemsWithCounts = [];
+      for (const ecosystemKey in data) {
+        if (Object.hasOwnProperty.call(data, ecosystemKey)) {
+          const packageList = Array.isArray(data[ecosystemKey])
+            ? data[ecosystemKey]
+            : [];
+          ecosystemsWithCounts.push({
+            key: ecosystemKey,
+            packages: packageList,
+            count: packageList.length,
           });
-
-          pane.appendChild(rowGrid);
-          tabContentContainer.appendChild(pane);
-        });
-
-        if (!searchHasResults) {
-          tabContentContainer.innerHTML =
-            '<p class="text-muted text-center py-4 my-0">No malicious components matched your search parameters.</p>';
         }
       }
 
-      // Bind Search Input Listener Engine
-      searchInput.addEventListener("input", (e) => {
-        renderEcosystems(e.target.value);
+      // Sort the array:
+      // 1. By count (descending)
+      // 2. Then alphabetically by key (ascending) for ties
+      ecosystemsWithCounts.sort((a, b) => {
+        if (b.count !== a.count) {
+          return b.count - a.count; // Sort by count descending
+        }
+        return a.key.localeCompare(b.key); // Sort by key alphabetically for ties
       });
 
-      // Initial Layout Execution
-      renderEcosystems();
+      // Iterate through the sorted array to generate the accordions
+      ecosystemsWithCounts.forEach((ecosystem) => {
+        const ecosystemKey = ecosystem.key;
+        const packageList = ecosystem.packages; // Use the already fetched and processed list
+
+        // Generate unique IDs for collapse and heading based on ecosystem key
+        const collapseId = `collapse${capitalizeFirstLetter(ecosystemKey)}`;
+        const headingId = `heading${capitalizeFirstLetter(ecosystemKey)}`;
+
+        // Create accordion item structure
+        const accordionItem = document.createElement("div");
+        accordionItem.classList.add("accordion-item");
+
+        const accordionHeader = document.createElement("h2");
+        accordionHeader.classList.add("accordion-header");
+        accordionHeader.id = headingId;
+
+        const accordionButton = document.createElement("button");
+        accordionButton.classList.add("accordion-button", "collapsed"); // Start collapsed by default
+        accordionButton.type = "button";
+        accordionButton.dataset.bsToggle = "collapse";
+        accordionButton.dataset.bsTarget = `#${collapseId}`;
+        accordionButton.setAttribute("aria-expanded", "false");
+        accordionButton.setAttribute("aria-controls", collapseId);
+        accordionButton.textContent = capitalizeFirstLetter(ecosystemKey); // Display capitalized name
+
+        accordionHeader.appendChild(accordionButton);
+
+        const accordionCollapse = document.createElement("div");
+        accordionCollapse.id = collapseId;
+        accordionCollapse.classList.add("accordion-collapse", "collapse");
+        accordionCollapse.setAttribute("aria-labelledby", headingId);
+        accordionCollapse.dataset.bsParent = "#examplesAccordion"; // Link to the parent accordion container
+
+        const accordionBody = document.createElement("div");
+        accordionBody.classList.add("accordion-body");
+
+        const ulElement = document.createElement("ul");
+        ulElement.classList.add("list-group", "list-group-flush", "text-start");
+
+        accordionBody.appendChild(ulElement);
+        accordionCollapse.appendChild(accordionBody);
+
+        accordionItem.appendChild(accordionHeader);
+        accordionItem.appendChild(accordionCollapse);
+
+        // Append the complete accordion item to the main accordion container
+        examplesAccordion.appendChild(accordionItem);
+
+        // Now populate the list and add the badge using the helper function
+        populateAccordionContent(ulElement, accordionButton, packageList);
+      });
     })
     .catch((error) => {
-      console.error("Ecosystem Render Fault:", error);
-      const container = document.getElementById("ecosystemTabContent");
-      if (container)
-        container.innerHTML =
-          '<p class="text-danger text-center">Failed to interface package telemetry directory details securely.</p>';
+      console.error("Error fetching or parsing packages.json:", error);
+      const examplesAccordion = document.getElementById("examplesAccordion");
+      if (examplesAccordion) {
+        examplesAccordion.innerHTML =
+          '<div class="col-12"><p class="text-danger">Error loading package examples. Please ensure `data/packages.json` exists and is correctly formatted.</p></div>';
+      }
     });
 
   // --- Enhanced Media Coverage Section ---
