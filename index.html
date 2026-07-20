@@ -1,194 +1,408 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Backstabber's Knife Collection Dataset</title>
+    <meta
+      name="description"
+      content="Explore the Backstabber's Knife Collection: A comprehensive dataset of real-world malicious open source packages for understanding and mitigating software supply chain risks."
+    />
+    <meta
+      name="keywords"
+      content="malicious packages, open source security, software supply chain, dataset, npm, pypi, rubygems, security research"
+    />
 
-  <title>Backstabber's Knife Collection Dataset</title>
-  <meta name="description" content="Explore the Backstabber's Knife Collection: A comprehensive dataset of real-world malicious open source packages for understanding and mitigating software supply chain risks.">
-  <meta name="keywords" content="malicious packages, open source security, software supply chain, dataset, npm, pypi, rubygems, security research">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <link href="css/bootstrap-5.3.6.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/fontawesome-6.7.2.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
 
-  <link rel="shortcut icon" type="image/png" href="images/favicon.png">
-  <link href="css/bootstrap-5.3.6.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/fontawesome-6.7.2.css">
-  <link rel="stylesheet" href="css/custom.css">
-</head>
-
-<body>
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img width="40px" src="images/favicon.png"> Backstabber's Knife Collection</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#features">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#examples">Examples</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#access">Access</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <div class="bg-light text-center py-5 mb-4 mt-4">
-    <div class="container">
-      <h1 class="display-4">
-        Unmasking Malicious Open Source Components
-      </h1>
-      <p class="lead">Explore the Backstabber's Knife Collection: A comprehensive dataset of real-world malicious packages.</p>
-      <hr class="my-4">
-      <p>Understand the threats lurking in open source dependencies and strengthen your software supply chain security.</p>
-
-      <img src="images/bkc-logo.webp" id="logo" class="rounded mx-auto d-block" alt="Backstabber's Knife Collection Logo">
-
-      <a class="btn btn-primary btn-lg" href="#about" role="button">Learn More</a>
-      <a class="btn btn-success btn-lg" href="https://link.springer.com/chapter/10.1007/978-3-030-52683-2_2" target="_blank" role="button">Read the Paper</a>
-    </div>
-  </div>
-
-  <section id="about" class="section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 mx-auto text-center">
-          <h2>About the Dataset</h2>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top backdrop-blur"
+    >
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+          <img width="32px" height="32px" src="images/favicon.png" alt="" />
+          <span class="fw-semibold">Backstabber's Knife Collection</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#examples">Examples</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#access">Access</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-        <p class="lead">The Backstabber's Knife Collection is a unique dataset meticulously curated to provide insights into malicious open source software components observed in real-world attacks starting 2015. Sourced from popular package repositories like npm, PyPI, RubyGems, and more, this collection is an invaluable resource for researchers, security professionals, and developers aiming to understand and mitigate software supply chain risks.</p>
       </div>
-    </div>
-  </section>
+    </nav>
 
-  <section id="features" class="section-padding bg-light">
-    <div class="container">
-      <h2 class="text-center mb-4">Key Features</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <div class="d-flex align-items-center mb-3">
-                <i class="fas fa-bug feature-icon me-2"></i>
-                <h5 class="card-title">Real-World Attacks</h5>
-              </div>
-              <p class="card-text">Contains samples from actual attacks, offering practical insights into prevalent malicious techniques.</p>
+    <!-- Modernized Hero Section -->
+    <header class="hero-section text-white d-flex align-items-center">
+      <div class="container">
+        <div class="row align-items-center g-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-3 fw-bold lh-sm mb-3">
+              Unmasking Malicious <br /><span class="text-accent"
+                >Open Source</span
+              >
+              Components
+            </h1>
+            <p class="lead text-muted-light mb-4">
+              Explore the Backstabber's Knife Collection: A comprehensive
+              dataset of real-world malicious packages to strengthen software
+              supply chain security.
+            </p>
+            <div
+              class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start"
+            >
+              <a class="btn btn-accent btn-lg px-4" href="#about" role="button"
+                >Learn More</a
+              >
+              <a
+                class="btn btn-outline-light btn-lg px-4"
+                href="https://link.springer.com/chapter/10.1007/978-3-030-52683-2_2"
+                target="_blank"
+                role="button"
+              >
+                <i class="fas fa-file-alt me-2"></i>Read the Paper
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-5 text-center">
+            <div class="logo-wrapper">
+              <img
+                src="images/bkc-logo.webp"
+                id="logo"
+                class="img-fluid rounded-4 shadow-lg"
+                alt="Backstabber's Knife Collection Logo"
+              />
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <div class="d-flex align-items-center mb-3">
-                <i class="fas fa-cubes feature-icon me-2"></i>
-                <h5 class="card-title">Multi-Ecosystem Coverage</h5>
-              </div>
-              <p class="card-text">Includes malicious packages from npm, PyPI, RubyGems, and more, reflecting diverse attack vectors.</p>
+      </div>
+    </header>
+
+    <main>
+      <!-- About Section -->
+      <section id="about" class="section-padding">
+        <div class="container">
+          <div class="row align-items-center g-4">
+            <div class="col-md-4">
+              <h2 class="fw-bold border-start border-primary border-4 ps-3 m-0">
+                About the Dataset
+              </h2>
+            </div>
+            <div class="col-md-8">
+              <p class="lead text-secondary m-0">
+                The Backstabber's Knife Collection is a unique dataset
+                meticulously curated to provide insights into malicious open
+                source software components observed in real-world attacks
+                starting 2015. Sourced from popular package repositories like
+                <strong>npm</strong>, <strong>PyPI</strong>, and
+                <strong>RubyGems</strong>, this collection serves as an
+                invaluable asset for researchers, security professionals, and
+                developers mitigating software supply chain risks.
+              </p>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <div class="d-flex align-items-center mb-3">
-                <i class="fas fa-book feature-icon me-2"></i>
-                <h5 class="card-title">Research Backing</h5>
+      </section>
+
+      <!-- Features Section -->
+      <section
+        id="features"
+        class="section-padding bg-light border-top border-bottom"
+      >
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="fw-bold">Key Features</h2>
+            <p class="text-muted">
+              Engineered for robust open-source security analytics
+            </p>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card h-100 feature-card border-0 shadow-sm">
+                <div class="card-body p-4">
+                  <div class="feature-icon-box mb-3">
+                    <i class="fas fa-bug"></i>
+                  </div>
+                  <h5 class="fw-bold card-title mb-2">Real-World Attacks</h5>
+                  <p class="card-text text-secondary">
+                    Contains samples from actual attacks, offering practical
+                    insights into prevalent malicious techniques.
+                  </p>
+                </div>
               </div>
-              <p class="card-text">Based on research presented in a scientific paper, ensuring data quality and relevance.</p>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100 feature-card border-0 shadow-sm">
+                <div class="card-body p-4">
+                  <div class="feature-icon-box mb-3 icon-purple">
+                    <i class="fas fa-cubes"></i>
+                  </div>
+                  <h5 class="fw-bold card-title mb-2">
+                    Multi-Ecosystem Coverage
+                  </h5>
+                  <p class="card-text text-secondary">
+                    Includes malicious packages from npm, PyPI, RubyGems, and
+                    more, reflecting diverse attack vectors.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100 feature-card border-0 shadow-sm">
+                <div class="card-body p-4">
+                  <div class="feature-icon-box mb-3 icon-green">
+                    <i class="fas fa-book"></i>
+                  </div>
+                  <h5 class="fw-bold card-title mb-2">Research Backing</h5>
+                  <p class="card-text text-secondary">
+                    Based on research presented in a scientific paper, ensuring
+                    rigorous data quality and practical relevance.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <section id="examples" class="section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 mx-auto text-center">
-          <h2>Explore Malicious Package Examples</h2>
-          <p class="lead">Browse examples of malicious packages included in the dataset, categorized by ecosystem.</p>
+      <!-- Examples Section -->
+      <section id="examples" class="section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+              <h2 class="fw-bold mb-3">Explore Malicious Package Examples</h2>
+              <p class="lead text-secondary mb-5">
+                Browse malicious packages included in the dataset, dynamically
+                filtered and categorized by ecosystem.
+              </p>
 
-          <div class="accordion" id="examplesAccordion">
+              <div
+                class="accordion custom-accordion shadow-sm"
+                id="examplesAccordion"
+              >
+                <!-- Dynamically populated by JS -->
+              </div>
 
-          </div> <a class="btn btn-outline-primary mt-4" href="#access" role="button">Access the Dataset for the Full Index and Metadata</a>
+              <a
+                class="btn btn-primary btn-lg mt-5 px-4"
+                href="#access"
+                role="button"
+              >
+                <i class="fas fa-database me-2"></i>Access the Dataset for Full
+                Index & Metadata
+              </a>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
-
-  <section id="media" class="section-padding bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 mx-auto text-center">
-          <h2>Media Coverage</h2>
-          <p class="lead">Explore articles and mentions of the Backstabbers' Knife Collection in the media and research.</p>
+      <!-- Media Section -->
+      <section
+        id="media"
+        class="section-padding bg-light border-top border-bottom"
+      >
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="fw-bold">Media Coverage</h2>
+            <p class="lead text-secondary">
+              Articles and academic mentions of the Backstabber's Knife
+              Collection.
+            </p>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div id="mediaList" class="row g-3">
+                <!-- Dynamically populated by JS -->
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col-md-10 mx-auto">
-                    <div id="mediaList" class="row">
-                      </div>
+      </section>
+
+      <!-- Access Section -->
+      <section id="access" class="section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+              <div class="access-badge mb-3">
+                <i class="fas fa-lock-open me-2"></i>Academic Access
+              </div>
+              <h2 class="fw-bold mb-4">How to Request Access</h2>
+              <div class="card border-0 shadow p-4 p-md-5 text-start bg-white">
+                <p class="lead text-secondary mb-4">
+                  The Backstabber's Knife Collection is freely available for
+                  verified security research and academic evaluation purposes.
+                </p>
+                <div
+                  class="instruction-box p-3 bg-light rounded-3 mb-4 border-start border-primary border-3"
+                >
+                  <p class="mb-0">
+                    Please transmit an email request to
+                    <strong>ohm[at]cs.uni-bonn.de</strong> from your
+                    institution’s official email infrastructure.
+                  </p>
+                </div>
+                <h5
+                  class="fw-bold text-dark mb-3 small text-uppercase tracking-wider"
+                >
+                  Your request must detail:
+                </h5>
+                <ul
+                  class="list-unstyled gap-2 d-flex flex-column text-secondary mb-0"
+                >
+                  <li>
+                    <i class="fas fa-check-circle text-success me-2"></i> Your
+                    core research objectives & framework methodology
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle text-success me-2"></i> Your
+                    active institutional GitHub user identity
+                  </li>
+                  <li>
+                    <i
+                      class="fas fa-exclamation-triangle text-warning me-2"
+                    ></i>
+                    <em
+                      >Note: Inquiries originating from anonymous or public
+                      providers (Gmail/Yahoo/etc.) cannot be authorized.</em
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
+      <!-- Contact & Documentation Section -->
+      <section id="contact" class="section-padding bg-dark text-white">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-6">
+              <h2 class="fw-bold mb-4 text-white">Resources & Links</h2>
+              <div class="d-flex flex-column gap-3">
+                <a
+                  href="https://sap.github.io/risk-explorer-for-software-supply-chains"
+                  target="_blank"
+                  class="resource-card d-flex align-items-center p-3 rounded-3 text-decoration-none bg-secondary-dark text-white"
+                >
+                  <i
+                    class="fas fa-project-diagram fa-2x me-3 text-muted-light"
+                  ></i>
+                  <div>
+                    <h6 class="mb-0 fw-bold">
+                      Risk Explorer for Software Supply Chains
+                    </h6>
+                    <small class="text-muted-light"
+                      >Taxonomy of known attacks and techniques</small
+                    >
+                  </div>
+                </a>
+                <a
+                  href="https://link.springer.com/chapter/10.1007/978-3-030-52683-2_2"
+                  target="_blank"
+                  class="resource-card d-flex align-items-center p-3 rounded-3 text-decoration-none bg-secondary-dark text-white"
+                >
+                  <i
+                    class="fas fa-graduation-cap fa-2x me-3 text-muted-light"
+                  ></i>
+                  <div>
+                    <h6 class="mb-0 fw-bold">Associated Research Paper</h6>
+                    <small class="text-muted-light"
+                      >A Review of Open Source Software Supply Chain
+                      Attacks</small
+                    >
+                  </div>
+                </a>
+                <a
+                  href="https://github.com/lxyeternal/pypi_malregistry"
+                  target="_blank"
+                  class="resource-card d-flex align-items-center p-3 rounded-3 text-decoration-none bg-secondary-dark text-white"
+                >
+                  <i class="fas fa-database fa-2x me-3 text-muted-light"></i>
+                  <div>
+                    <h6 class="mb-0 fw-bold">Integrated PyPI Registry</h6>
+                    <small class="text-muted-light"
+                      >pypi_malregistry Integration via Guo et al. (ASE
+                      2023)</small
+                    >
+                  </div>
+                </a>
+              </div>
+            </div>
 
-  <section id="access" class="section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 mx-auto text-center">
-          <h2>How to Access the Dataset</h2>
-          <p class="lead">The Backstabbers' Knife Collection is available for research and security purposes.</p>
-          <p>Send me an email (ohm[at]cs.uni-bonn.de) from your institute's email address containing your research idea and your GitHub account name. We will only respond to inquiries from individuals with a valid email address from reputable organizations.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="section-padding bg-light">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 mx-auto text-center">
-          <h2>Contact and More Information</h2>
-          <p class="lead">For questions, collaborations, or more details about the Backstabber's Knife Collection, please visit the official repository or refer to the associated research paper.</p>
-          <p><strong>Official Repository:</strong> <a href="https://github.com/cybertier/Backstabbers-Knife-Collection" target="_blank">https://github.com/cybertier/Backstabbers-Knife-Collection</a></p>
-          <p><strong>Associated Research Paper:</strong> <a href="https://link.springer.com/chapter/10.1007/978-3-030-52683-2_2" target="_blank">Backstabber's Knife Collection: A Review of Open Source Software Supply Chain Attacks</a></p>
-          <p><strong>Related Dataset (PyPI):</strong> <a href="https://github.com/lxyeternal/pypi_malregistry" target="_blank">pypi_malregistry</a> - This dataset is described by Guo et al. in the ASE 2023 paper "An Empirical Study of Malicious Code In PyPI Ecosystem" and has been integrated into the Backstabber's Knife Collection.</p>
-
-          <div class="citation mx-auto">
-            <h6>Citation Recommendation:</h6>
-            <pre><code>@inproceedings{ohm2020backstabber,
+            <div class="col-lg-6">
+              <h2 class="fw-bold mb-4 text-white">Citation Information</h2>
+              <p class="text-muted-light mb-3">
+                If you employ this ecosystem dataset within academic or
+                industrial publications, kindly credit using the following
+                schema:
+              </p>
+              <div class="citation shadow-lg rounded-3">
+                <div
+                  class="d-flex justify-content-between align-items-center px-3 py-2 bg-secondary-dark border-bottom border-secondary"
+                >
+                  <span class="text-muted-light small fw-mono"
+                    >BibTeX Schema</span
+                  >
+                </div>
+                <pre
+                  class="p-3 mb-0 text-white-50"
+                ><code>@inproceedings{ohm2020backstabber,
   title={Backstabber's Knife Collection: A Review of Open Source Software Supply Chain Attacks},
   author={Ohm, Marc and Plate, Henrik and Sykosch, Arnold and Meier, Michael},
-  booktitle={International Conference on Detection of Intrusions and Malware, and Vulnerability Assessment},
+  booktitle={DIMVA},
   year={2020},
   organization={Springer}
 }</code></pre>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark py-4 border-top border-secondary">
+      <div class="container text-center text-muted-light">
+        <p class="mb-0 small">
+          &copy; 2026 | Backstabber's Knife Collection Dataset
+        </p>
       </div>
-    </div>
-  </section>
+    </footer>
 
-  <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2025 | Backstabber's Knife Collection Dataset | All rights reserved</p>
-  </footer>
-  <script src="js/bootstrap-5.3.6.bundle.min.js"></script>
-  <script src="js/custom.js"></script>
-</body>
-
+    <script src="js/bootstrap-5.3.6.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
 </html>
