@@ -20,6 +20,55 @@ body {
   background-color: #ffffff;
 }
 
+/* Ecosystem Grid Refinements */
+#ecosystemTabs .nav-link {
+  color: #475569;
+  background-color: #f1f5f9;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 0.5rem 1.25rem;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+#ecosystemTabs .nav-link.active {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(13, 110, 253, 0.2);
+}
+
+.package-item {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 0.65rem 1rem;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.9rem;
+  color: #334155;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition:
+    transform 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.package-item:hover {
+  transform: translateY(-2px);
+  border-color: #cbd5e1;
+  background-color: #f8fafc;
+}
+
+.package-item i {
+  color: #ef4444; /* Alert color for malicious items */
+  font-size: 0.8rem;
+}
+
+#packageSearch:focus {
+  box-shadow: none;
+  border-color: #cbd5e1;
+}
+
 /* Section Controls */
 .section-padding {
   padding: 6rem 0;

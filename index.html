@@ -201,22 +201,50 @@
       <section id="examples" class="section-padding">
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 mx-auto text-center">
+            <div class="col-lg-10 mx-auto text-center">
               <h2 class="fw-bold mb-3">Explore Malicious Package Examples</h2>
-              <p class="lead text-secondary mb-5">
-                Browse malicious packages included in the dataset, dynamically
-                filtered and categorized by ecosystem.
+              <p class="lead text-secondary mb-4">
+                Browse real-world malicious packages discovered in the wild,
+                categorized by ecosystem registries.
               </p>
 
-              <div
-                class="accordion custom-accordion shadow-sm"
-                id="examplesAccordion"
+              <!-- Search & Filter Bar Bar Controls -->
+              <div class="row justify-content-center mb-4">
+                <div class="col-md-6">
+                  <div class="input-group shadow-sm rounded-3">
+                    <span
+                      class="input-group-text bg-white border-end-0 text-muted"
+                      ><i class="fas fa-search"></i
+                    ></span>
+                    <input
+                      type="text"
+                      id="packageSearch"
+                      class="form-control border-start-0 ps-0"
+                      placeholder="Search package names (e.g., eslint, request)..."
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Ecosystem Tabs Navigation Header -->
+              <ul
+                class="nav nav-pills justify-content-center mb-4 gap-2"
+                id="ecosystemTabs"
+                role="tablist"
               >
-                <!-- Dynamically populated by JS -->
+                <!-- Dynamically generated buttons will go here -->
+              </ul>
+
+              <!-- Ecosystem Display Content Grid -->
+              <div
+                class="tab-content bg-light p-4 rounded-4 border border-light shadow-sm text-start"
+                id="ecosystemTabContent"
+              >
+                <!-- Dynamically generated grids will go here -->
               </div>
 
               <a
-                class="btn btn-primary btn-lg mt-5 px-4"
+                class="btn btn-primary btn-lg mt-5 px-4 shadow-sm"
                 href="#access"
                 role="button"
               >
